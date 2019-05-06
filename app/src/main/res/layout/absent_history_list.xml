@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:outlineAmbientShadowColor="@color/black_overlay"
+    android:outlineSpotShadowColor="@color/black_overlay"
+    app:cardCornerRadius="4dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/lnAbsenHistory">
+
+        <TextView
+            android:id="@+id/tv_eventName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="Sample title"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/tv_eventId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="Sample ID"
+                android:textColor="@color/black_overlay"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_eventDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="MM/DD/YYYY"
+                android:textColor="@color/black_overlay"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:background="@color/black_overlay" />-->
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

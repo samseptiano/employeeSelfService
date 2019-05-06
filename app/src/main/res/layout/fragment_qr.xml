@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="30dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragment.SubMenuProfile.QRFragment">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_marginTop="15dp"
+                            android:id="@+id/MyQR"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/imgalt" />
+
+                    <ImageView
+                        android:id="@+id/companyLogo"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:alpha=".75"
+                        android:src="@drawable/common_google_signin_btn_icon_dark_normal" />
+
+                    <ImageView
+                        android:id="@+id/qrFrame"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/qr_frame" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tvNIK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:text="NIK"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <!--<Button-->
+                    <!--android:id="@+id/btnScanQr"-->
+                    <!--android:text="Tap To Scan QR"-->
+                    <!--android:textColor="@color/colorAccent"-->
+                    <!--android:textSize="14sp"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:background="@drawable/button_download_shape"-->
+                    <!--android:shadowColor="#A8A8A8"-->
+                    <!--android:shadowDx="0"-->
+                    <!--android:shadowDy="0"-->
+                    <!--android:layout_margin="10dp"-->
+                    <!--android:layout_marginBottom="0dp"-->
+                    <!--android:shadowRadius="5"-->
+                    <!--/>-->
+
+                <ImageButton
+                    android:id="@+id/btnScanQr"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@color/zxing_transparent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/tap_scan_button" />
+
+            </LinearLayout>
+</ScrollView>
