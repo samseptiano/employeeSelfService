@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp">
+
+            <com.example.samuelseptiano.employeeselfservice.Carrousel.ViewPagerCarouselView
+                android:id="@+id/carousel_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </com.example.samuelseptiano.employeeselfservice.Carrousel.ViewPagerCarouselView>
+
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edtSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:background="@drawable/shape_searchbar"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingBottom="10dp"
+                    android:imeOptions="actionSearch"
+                    android:hint="Cari event disini"
+                    android:inputType="text"
+                    android:layout_marginTop="25dp"
+                    android:textSize="18sp" />
+
+                <ImageButton
+                android:id="@+id/imgBtnScan"
+                android:layout_width="70dp"
+                android:layout_margin="10dp"
+                android:layout_height="70dp"
+                android:scaleType="centerInside"
+                android:background="@color/zxing_transparent"
+                android:src="@drawable/tap_to_scan_square" />
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1">
+                <ImageButton
+                android:id="@+id/imgBtnEvent"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                    android:padding="15dp"
+                    android:scaleType="centerInside"
+                    android:background="@color/zxing_transparent"
+                android:src="@drawable/event_icon" />
+
+                    <TextView
+                        android:id="@+id/tv_event"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Event"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1">
+                    <ImageButton
+                        android:id="@+id/imgBtnPA"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:scaleType="centerInside"
+                        android:padding="15dp"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/goal_icon" />
+
+                    <TextView
+                        android:id="@+id/tv_pa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PA"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                </LinearLayout>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/imgBtnBenefit"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:padding="15dp"
+                    android:background="@color/zxing_transparent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/benefit_icon" />
+
+                    <TextView
+                        android:id="@+id/tv_benefit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Benefit"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:layout_margin="10dp"
+
+                    android:layout_weight="1">
+                    <ImageButton
+                        android:id="@+id/imgBtnRequest"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:scaleType="centerInside"
+                        android:padding="15dp"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/request_icon" />
+
+                    <TextView
+                        android:id="@+id/tv_request"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Request"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                </LinearLayout>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                    android:visibility="gone"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/imgBtnSurvey"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:scaleType="centerInside"
+                    android:padding="15dp"
+                    android:background="@color/zxing_transparent"
+                    android:src="@drawable/survey_icon" />
+
+                    <TextView
+                        android:id="@+id/tv_survey"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Survey"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            </LinearLayout>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                    android:visibility="gone"
+                    android:layout_margin="10dp"
+
+                    android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/imgBtnMore"
+                    android:layout_width="match_parent"
+                    android:background="@color/zxing_transparent"
+                    android:layout_height="80dp"
+                    android:scaleType="centerInside"
+                    android:padding="15dp"
+                    android:src="@drawable/more_icon" />
+
+                    <TextView
+                        android:id="@+id/tv_more"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="More"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="60dp">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Request Inbox"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view_request_inbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:padding="10dp"
+                    android:background="@drawable/square_frame"/>
+            </LinearLayout>
+        </LinearLayout>
+</ScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>
