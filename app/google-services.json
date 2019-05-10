@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "918665474399",
+    "firebase_url": "https://fir-notification-6aecb.firebaseio.com",
+    "project_id": "fir-notification-6aecb",
+    "storage_bucket": "fir-notification-6aecb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918665474399:android:5e2d93d6b7af1e1f",
+        "android_client_info": {
+          "package_name": "com.example.samuelseptiano.employeeselfservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918665474399-mddtbadkka96l4tj2nk6r6o1avfjbgfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRN3agiXYZxvvUk0CbWe9Ilg_qbsT1O60"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
