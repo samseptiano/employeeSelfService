@@ -83,7 +83,7 @@ public class KPIAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     FragmentManager fm,fmm;
     FragmentTransaction ft,ftt;
 
-    boolean isVisible = false;
+    static boolean isVisible = false;
 
     String id,type;
     String isEditable="N";
@@ -601,7 +601,7 @@ public class KPIAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                         tvIndicator.setTextColor(context.getResources().getColor(R.color.red));
                         break;
                     case 2:
-                        tvIndicator.setText("GOOD");
+                        tvIndicator.setText("BELOW");
                         tvIndicator.setTextColor(context.getResources().getColor(R.color.orange));
                         break;
                     case 3:
@@ -643,7 +643,7 @@ public class KPIAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                             tvIndicator.setTextColor(context.getResources().getColor(R.color.red));
                             break;
                         case 2:
-                            tvIndicator.setText("GOOD");
+                            tvIndicator.setText("BELOW");
                             tvIndicator.setTextColor(context.getResources().getColor(R.color.orange));
                             break;
                         case 3:

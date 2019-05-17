@@ -106,7 +106,6 @@ public class LoginActivity extends AppCompatActivity implements ConnectivityRece
                     }
                     else if(response.code() == 200){
                         token = response.body().getToken();
-                        //Toast.makeText(getApplicationContext(), "Token Baru: "+token, Toast.LENGTH_SHORT).show();
                         //=========================================================
                         btnLogin.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -140,7 +139,6 @@ public class LoginActivity extends AppCompatActivity implements ConnectivityRece
 //                                                    hintMap.put(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.H);
 //                                                    String userQR = CreateQRCode(user.getEmpNIK(), "UTF-8", hintMap, smallestDimension, smallestDimension);
 
-
                                                     userRealmHelper.addArticle(user, token, userQR);
                                                     session.createLoginSession(userName, password.replaceAll(" ", ""));
                                                     Intent i = new Intent(LoginActivity.this, MainActivity.class);
@@ -153,7 +151,6 @@ public class LoginActivity extends AppCompatActivity implements ConnectivityRece
                                                     Toast.makeText(getApplicationContext(), "Password Not Correct!", Toast.LENGTH_SHORT).show();
                                                     linlaHeaderProgress.setVisibility(View.GONE);
                                                     imgLogo.setVisibility(View.VISIBLE);
-
                                                 }
                                             }
                                             catch(Exception e){
@@ -162,7 +159,6 @@ public class LoginActivity extends AppCompatActivity implements ConnectivityRece
                                                 imgLogo.setVisibility(View.VISIBLE);
                                             }
                                         }
-
                                         @Override
                                         public void onFailure(Call<User> call, Throwable t) {
                                             // Log error here since request failed

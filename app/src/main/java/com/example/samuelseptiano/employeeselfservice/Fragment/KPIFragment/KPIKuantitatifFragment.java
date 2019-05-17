@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
@@ -35,6 +36,7 @@ import com.example.samuelseptiano.employeeselfservice.Model.ImageUploadModel;
 import com.example.samuelseptiano.employeeselfservice.R;
 
 import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.EventListener;
 import java.util.List;
@@ -226,19 +228,23 @@ public class KPIKuantitatifFragment extends Fragment  implements KPIAdapter.Even
                 }
                    ImageUploadModel ium = new ImageUploadModel();
 
-                    Bitmap photo = (Bitmap) data.getExtras().get("data");
+//                    Bitmap photo = (Bitmap) data.getExtras().get("data");
                     Uri selectedImage = data.getData();
                     String[] filePathColumn = { MediaStore.Images.Media.DATA };
-
-                    // Get the cursor
+//
+//                    // Get the cursor
                     Cursor cursor = getActivity().getContentResolver().query(selectedImage,
                             filePathColumn, null, null, null);
                     // Move to first row
                     cursor.moveToFirst();
-
+//
                     int columnIndex = cursor.getColumnIndex(filePathColumn[0]);
                     String imgDecodableString = cursor.getString(columnIndex);
                     cursor.close();
+
+                final Uri imageUri = data.getData();
+                final InputStream imageStream = getContext().getContentResolver().openInputStream(imageUri);
+                final Bitmap photo = BitmapFactory.decodeStream(imageStream);;
 
                     //============================================================================
                     //Convert Bitmap to String
