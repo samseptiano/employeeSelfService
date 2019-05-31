@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.samuelseptiano.employeeselfservice.Fragment.KPIMasaJabatanFragment.KPIApproveListFragment"
+    android:layout_marginBottom="30dp">
+
+    <!--<android.support.v4.widget.SwipeRefreshLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/swipeContainer"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="0dp"
+        app:cardUseCompatPadding="true">
+        <LinearLayout
+            android:id="@+id/lnMyDashboard"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dashboard" />
+
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/imgExpandDashboard"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/expand_down"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/lnMyDashboardArea"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:padding="10dp"
+            >
+            <include layout="@layout/chart_view"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="0dp"
+        app:cardUseCompatPadding="true">
+        <LinearLayout
+            android:id="@+id/lnMyTeam"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Team" />
+
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/imgExpandTeam"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/expand_down"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/lnMyTeamArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewKPIApproveList"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical" >
+
+            </android.support.v7.widget.RecyclerView>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floating_action_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:visibility="gone"
+                android:saveEnabled="false"
+                android:src="@drawable/pencil"
+                app:fabSize="normal" />
+        </android.support.design.widget.CoordinatorLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

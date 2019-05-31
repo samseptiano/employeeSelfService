@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="35dp"
+    tools:context=".Fragment.KPITahunanFragment.KPISummaryFragment">
+
+    <LinearLayout
+        android:id="@+id/linlaHeaderProgress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:id="@+id/pbHeaderProgress"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:indeterminate="true">
+        </ProgressBar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/tv_result_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:text="Nama" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/tv_result_nik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:text="NIK" />
+
+
+
+    <RatingBar
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:id="@+id/ratingBarResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stepSize="1"
+        android:isIndicator="true"
+        android:numStars="5"
+        />
+
+    <TextView
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:id="@+id/tv_result_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="italic"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:text="N/A" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_approve_result"
+            android:text="Approve KPI"
+            android:layout_margin="10dp"
+            android:textColor="#FCFCFC"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:background="@drawable/button_shape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
