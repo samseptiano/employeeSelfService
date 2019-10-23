@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "45759281848",
+    "firebase_url": "https://e-kioskchat.firebaseio.com",
+    "project_id": "e-kioskchat",
+    "storage_bucket": "e-kioskchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45759281848:android:5e2d93d6b7af1e1f",
+        "android_client_info": {
+          "package_name": "com.example.samuelseptiano.employeeselfservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45759281848-ike9i9upc6ang9tl3pltn8uqrpecchd0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDcrFsGI0SjeoBO6acLcElASa--0bnpks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45759281848-ike9i9upc6ang9tl3pltn8uqrpecchd0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
