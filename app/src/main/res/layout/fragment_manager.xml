@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.samuelseptiano.employeeselfservice.Fragment.PerformanceAppraisal.ManagerFragment"
+    android:orientation="vertical">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/fragment_manager_tab_bar_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:background="@android:color/transparent"
+        app:layout_scrollFlags="scroll"
+        app:tabSelectedTextColor="@android:color/black"
+        app:tabIndicatorColor="@color/colorAccent"
+        app:tabTextColor="@color/colorPrimaryDark" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/fragment_manager_tab_bar_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

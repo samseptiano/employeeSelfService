@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingTop="100dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragment.KPITahunanFragment.DevelopmentPlanSubDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Individual Development Plan"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/tvIdpTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Customer Focus"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinnerImprovement"
+            android:visibility="visible"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:background="@drawable/shapetextarea"
+            app:ms_dropdown_max_height="150dp"
+            app:ms_dropdown_height="150dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shapetextarea"
+            android:text="+ Add" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:background="@color/zxing_transparent"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="50dp"
+            android:textStyle="normal"
+            android:text="Delete" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:layout_marginRight="15dp"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:id="@+id/formLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <View
+                android:id="@+id/lnIdpDetail"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            </View>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="60dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSave"
+            android:background="@drawable/shapegreen"
+            android:layout_width="wrap_content"
+            android:padding="15dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="SAVE" />
+        <Button
+            android:id="@+id/btnGotoIdp"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shapegreen"
+            android:text="GO TO IDP MENU" />
+    </LinearLayout>
+</LinearLayout>
