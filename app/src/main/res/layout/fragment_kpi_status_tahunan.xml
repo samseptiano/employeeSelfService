@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    tools:context=".Fragment.KPITahunanFragment.KPIStatusTahunanFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:text="Status PA" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:background="@color/zxing_transparent"
+        android:id="@+id/imgBtnOpen"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="15dp"
+        android:scaleType="fitCenter"
+        android:layout_height="200dp"
+        android:src="@drawable/open_icon" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:text="Open" />
+    <TextView
+        android:id="@+id/tvopen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:text="(2)" />
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:background="@color/zxing_transparent"
+                android:id="@+id/imgBtnProgress"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:scaleType="fitCenter"
+                android:layout_height="200dp"
+                android:src="@drawable/in_progress_icon" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="22sp"
+                android:textAlignment="center"
+                android:text="In Progress" />
+            <TextView
+                android:id="@+id/tvprogress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:text="(12)" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:background="@color/zxing_transparent"
+                android:id="@+id/imgBtnComplete"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:scaleType="fitCenter"
+                android:layout_height="200dp"
+                android:src="@drawable/completed_icon" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="22sp"
+                android:textAlignment="center"
+                android:text="Completed" />
+            <TextView
+                android:id="@+id/tvcomplete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:text="(9)" />
+        </LinearLayout>
+    <ImageButton
+        android:visibility="invisible"
+        android:background="@color/zxing_transparent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="30dp"
+        android:scaleType="fitCenter"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imgalt" />
+    </LinearLayout>
+</LinearLayout>
