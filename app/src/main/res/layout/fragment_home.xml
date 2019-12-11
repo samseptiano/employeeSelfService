@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeContainer"
+    android:layout_marginTop="0dp"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+        android:orientation="vertical"
+            android:id="@+id/lnHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+        android:layout_marginBottom="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/bgtoolbarsmall"
+                android:orientation="vertical"
+                android:paddingTop="50dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Selamat Datang,"
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvEmpName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="Samuel Septiano"
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <com.example.samuelseptiano.employeeselfservice.Carrousel.ViewPagerCarouselView
+                android:id="@+id/carousel_view"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+            </com.example.samuelseptiano.employeeselfservice.Carrousel.ViewPagerCarouselView>
+
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edtSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:background="@drawable/shape_searchbar"
+                    android:paddingTop="10dp"
+                    android:visibility="gone"
+                    android:paddingLeft="15dp"
+                    android:paddingBottom="10dp"
+                    android:imeOptions="actionSearch"
+                    android:hint="Cari event disini"
+                    android:inputType="text"
+                    android:layout_marginTop="25dp"
+                    android:textSize="18sp" />
+
+                <ImageButton
+                android:id="@+id/imgBtnScan"
+                    android:visibility="gone"
+                android:layout_width="70dp"
+                android:layout_margin="10dp"
+                android:layout_height="70dp"
+                android:scaleType="centerInside"
+                android:background="@color/zxing_transparent"
+                android:src="@drawable/tap_to_scan_square" />
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1">
+                <ImageButton
+                android:id="@+id/imgBtnEvent"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                    android:padding="15dp"
+                    android:scaleType="centerInside"
+                    android:background="@color/zxing_transparent"
+                android:src="@drawable/training_icon" />
+
+                    <TextView
+                        android:id="@+id/tv_event"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Training"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:visibility="visible"
+                    android:layout_weight="1">
+                    <ImageButton
+                        android:id="@+id/imgBtnPenilaian"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="centerInside"
+                        android:padding="15dp"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/penilaian_kinerja_icon" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Penilaian Kinerja"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    android:layout_weight="1">
+                    <ImageButton
+                        android:id="@+id/imgBtnPA"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:scaleType="centerInside"
+                        android:padding="15dp"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/pa" />
+
+                    <TextView
+                        android:id="@+id/tv_pa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Performance Appraisal"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    android:layout_weight="1">
+                    <ImageButton
+                        android:id="@+id/imgBtnPAPJ"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:scaleType="centerInside"
+                        android:padding="15dp"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/pk" />
+
+                    <TextView
+                        android:id="@+id/tv_pa_pj"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Peniaian Karyawan"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                </LinearLayout>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/imgBtnBenefit"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:padding="15dp"
+                    android:background="@color/zxing_transparent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/benefit_icon" />
+
+                    <TextView
+                        android:id="@+id/tv_benefit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Benefit"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:layout_margin="10dp"
+
+                    android:layout_weight="1">
+                    <ImageButton
+                        android:id="@+id/imgBtnRequest"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:scaleType="centerInside"
+                        android:padding="15dp"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/request_icon" />
+
+                    <TextView
+                        android:id="@+id/tv_request"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Request"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                </LinearLayout>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                    android:visibility="gone"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/imgBtnSurvey"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:scaleType="centerInside"
+                    android:padding="15dp"
+                    android:background="@color/zxing_transparent"
+                    android:src="@drawable/survey_icon" />
+
+                    <TextView
+                        android:id="@+id/tv_survey"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Survey"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            </LinearLayout>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                    android:visibility="gone"
+                    android:layout_margin="10dp"
+
+                    android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/imgBtnMore"
+                    android:layout_width="match_parent"
+                    android:background="@color/zxing_transparent"
+                    android:layout_height="80dp"
+                    android:scaleType="centerInside"
+                    android:padding="15dp"
+                    android:src="@drawable/more_icon" />
+
+                    <TextView
+                        android:id="@+id/tv_more"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="More"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="60dp">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Chat Inbox"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+
+
+                <LinearLayout
+                    android:background="@drawable/square_frame"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="3dp"
+                    android:layout_height="250dp">
+                    <LinearLayout
+                        android:id="@+id/linlaHeaderProgressInbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="visible" >
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleSmall"
+                            android:id="@+id/pbInboxProgress"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:indeterminate="true">
+                        </ProgressBar>
+                    </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view_request_inbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="0dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+</ScrollView>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
