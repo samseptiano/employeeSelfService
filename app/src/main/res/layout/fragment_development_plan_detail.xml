@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingTop="100dp"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    tools:context=".Fragment.KPITahunanFragment.DevelopmentPlanDetailFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <de.hdodenhof.circleimageview.CircleImageView
+               android:layout_margin="10dp"
+               android:id="@+id/imgEmpPhoto"
+               android:layout_height="50dp"
+               android:layout_width="50dp"
+               android:background="@color/zxing_transparent"
+               android:src="@drawable/user" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:orientation="vertical">
+
+               <TextView
+                   android:id="@+id/tv_employeeName"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentStart="true"
+                   android:layout_alignParentTop="true"
+                   android:layout_marginStart="10dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginEnd="10dp"
+                   android:layout_weight="1"
+                   android:gravity="left"
+                   android:padding="3dp"
+                   android:textStyle="bold"
+                   android:text="Employee Name"
+                   android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                   android:textSize="14sp" />
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:orientation="horizontal"
+                   android:layout_height="wrap_content">
+                   <TextView
+                       android:id="@+id/tv_job_title"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentStart="true"
+                       android:layout_alignParentTop="true"
+                       android:layout_marginStart="10dp"
+                       android:layout_marginEnd="5dp"
+                       android:gravity="left"
+                       android:padding="3dp"
+                       android:visibility="gone"
+                       android:text="Job Title"
+                       android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                       android:textSize="13sp" />
+                   <TextView
+                       android:id="@+id/tv_dept"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentStart="true"
+                       android:layout_alignParentTop="true"
+                       android:layout_marginStart="10dp"
+                       android:layout_marginEnd="10dp"
+                       android:layout_weight="1"
+                       android:gravity="left"
+                       android:padding="3dp"
+                       android:text="Department"
+                       android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                       android:textSize="12sp" />
+
+               </LinearLayout>
+           </LinearLayout>
+       </LinearLayout>
+   </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="5dp"
+        android:background="#000" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="3dp"
+            android:layout_marginTop="0dp"
+            android:text="Improvement Area and Development Plan"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="12sp" />
+        <Button
+            android:id="@+id/btnSaveDevPlan"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:textSize="12dp"
+            android:background="@drawable/shapegreen"
+            android:text="Save" />
+        <Button
+            android:id="@+id/btnApproveDevPlan"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:textSize="12dp"
+            android:background="@drawable/shapegreen"
+            android:text="Approve" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/linlaSpinnerDevPlanProgress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleSmall"
+                android:id="@+id/pbHeaderProgress1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:indeterminate="true">
+            </ProgressBar>
+        </LinearLayout>
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinnerImprovement"
+            android:visibility="visible"
+            android:layout_weight="1"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:background="@drawable/shapetextarea"
+            app:ms_dropdown_max_height="150dp"
+            app:ms_dropdown_height="150dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="10dp"
+            android:background="@drawable/shapetextarea"
+            android:text="+ Add" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:background="@color/zxing_transparent"
+            android:layout_width="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="40dp"
+            android:textSize="10dp"
+            android:textStyle="normal"
+            android:text="Delete" />
+    </LinearLayout>
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+    <LinearLayout
+        android:id="@+id/lnAddDevPlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginBottom="50dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linlaImprovementAreaProgress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
+            android:id="@+id/pbHeaderProgress"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:indeterminate="true">
+        </ProgressBar>
+    </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:id="@+id/rv_improvement_area"
+            android:layout_height="wrap_content" />
+<!--    </ScrollView>-->
+
+</LinearLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/checkBoxIdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tvNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:text="1. " />
+            <TextView
+                android:id="@+id/tvidp_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+
+                android:text="TextView" />
+
+            <ImageButton
+                android:id="@+id/imgExpand"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                android:background="@color/zxing_transparent"
+                android:layout_margin="10dp"
+                android:src="@drawable/expand_up"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lnExpanded"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:textSize="13sp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:text="Development Activities" />
+
+        <EditText
+            android:id="@+id/edtDevelopmentActivities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:minLines="6"
+            android:gravity="top|left"
+            android:background="@drawable/shapetextarea"
+            android:maxLines="10"
+            android:padding="10dp"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            android:scrollbars="vertical"
+            android:hint="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:textSize="13sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:text="KPI" />
+
+            <EditText
+                android:id="@+id/edtKPI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:lines="1"
+                android:minLines="1"
+                android:gravity="top|left"
+                android:background="@drawable/shapetextarea"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textSize="12dp"
+                android:textStyle="italic"
+                android:scrollbars="vertical"
+                android:hint="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:textSize="13sp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:text="Due Date" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edtDueDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:lines="1"
+                android:minLines="1"
+                android:editable="false"
+                android:gravity="top|left"
+                android:background="@drawable/shapetextarea"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:hint="" />
+                <ImageButton
+                    android:id="@+id/btnCalendar"
+                    android:layout_width="75dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/zxing_transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/event_icon" />
+                <DatePicker
+                    android:visibility="gone"
+                    android:id="@+id/datePickerDueDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:datePickerMode="calendar"/>
+
+
+</LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvMentor"
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:textSize="13sp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:text="Mentors" />
+
+            <EditText
+                android:id="@+id/edtMentor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:lines="1"
+                android:minLines="1"
+                android:gravity="top|left"
+                android:background="@drawable/shapetextarea"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textSize="12dp"
+                android:textStyle="italic"
+                android:scrollbars="vertical"
+                android:hint="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvAchevementRecommendation"
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:textSize="13sp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:text="Achievement and Recommendation" />
+
+            <EditText
+                android:id="@+id/edtAchevementRecommendation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:lines="1"
+                android:minLines="1"
+                android:gravity="top|left"
+                android:background="@drawable/shapetextarea"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textSize="12dp"
+                android:textStyle="italic"
+                android:scrollbars="vertical"
+                android:hint="" />
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
