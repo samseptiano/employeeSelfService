@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/lnIcon"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:layout_margin="10dp"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+            <ImageButton
+                android:id="@+id/imgBtnIcon"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"
+                android:enabled="false"
+                android:clickable="false"
+                android:background="@color/zxing_transparent"
+                android:src="@drawable/imgalt" />
+            <TextView
+                android:id="@+id/tvIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Setup PA"
+                android:paddingBottom="5dp"
+                android:textSize="11sp"
+                android:layout_alignParentBottom="true"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+</LinearLayout>

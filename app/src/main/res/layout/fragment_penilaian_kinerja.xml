@@ -1,0 +1,885 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.samuelseptiano.employeeselfservice.Fragment.PenilaianKInerjaFragment"
+    android:layout_marginTop="100dp"
+    android:layout_marginBottom="60dp">
+
+    <!--<android.support.v4.widget.SwipeRefreshLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/swipeContainer"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="9dp"
+        app:cardUseCompatPadding="true">
+        <LinearLayout
+            android:id="@+id/lnMyPA"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/performance_appraisal" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Performance Appraisal" />
+
+            <ImageView
+                android:id="@+id/imgExpandPA"
+                android:layout_width="50dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:layout_height="50dp"
+                android:src="@drawable/expand_up"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:id="@+id/lnMyPAArea"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/lnSetupPA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:alpha="0.6"
+                android:visibility="visible"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageButton
+                        android:id="@+id/imgBtnSetupPA"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        android:enabled="false"
+                        android:clickable="false"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/setup_pa" />
+                    <!--                    <ImageButton-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="45dp"-->
+                    <!--                        android:paddingRight="15dp"-->
+                    <!--                        android:paddingLeft="15dp"-->
+                    <!--                        android:layout_alignParentBottom="true"-->
+                    <!--                        android:scaleType="fitCenter"-->
+                    <!--                        android:background="@color/zxing_transparent"-->
+                    <!--                        android:src="@drawable/comingsoon" />-->
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Setup PA"
+                        android:paddingBottom="5dp"
+                        android:textSize="11sp"
+                        android:layout_alignParentBottom="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                    <ImageButton
+                        android:id="@+id/imgLockSetupPA"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:padding="28dp"
+                        android:scaleType="fitCenter"
+                        android:enabled="false"
+                        android:clickable="false"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/lock_icon" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnSelfAppraisal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:alpha="0.6"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/imgBtnSelfAppraisal"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:scaleType="fitCenter"
+                    android:background="@color/zxing_transparent"
+                    android:src="@drawable/self_appraisal" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Self Appraisal"
+                        android:paddingBottom="5dp"
+                        android:textSize="11sp"
+                        android:layout_alignParentBottom="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                    <ImageButton
+                        android:id="@+id/imgLockSelfAppraisal"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:padding="28dp"
+                        android:scaleType="fitCenter"
+                        android:enabled="false"
+                        android:clickable="false"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/lock_icon" />
+                </RelativeLayout>
+            </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lnPATeam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:alpha="0.6"
+            android:visibility="visible"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/imgBtnStartPA"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:scaleType="fitCenter"
+                android:background="@color/zxing_transparent"
+                android:src="@drawable/pa_team" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="PA Team"
+                    android:paddingBottom="5dp"
+                    android:textSize="11sp"
+                    android:layout_alignParentBottom="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                <ImageButton
+                    android:id="@+id/imgLockStartPA"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:padding="28dp"
+                    android:scaleType="fitCenter"
+                    android:enabled="false"
+                    android:clickable="false"
+                    android:background="@color/zxing_transparent"
+                    android:src="@drawable/lock_icon" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/imgBtnStatusPA"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="15dp"
+                android:scaleType="centerInside"
+                android:background="@color/zxing_transparent"
+                android:src="@drawable/status_pa" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Status PA"
+                    android:paddingBottom="5dp"
+                    android:textSize="11sp"
+                    android:layout_alignParentBottom="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/lnFinalPA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:alpha="0.6"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imgBtnFinalPA"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:scaleType="fitCenter"
+                    android:background="@color/zxing_transparent"
+                    android:src="@drawable/final_pa" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Final PA"
+                    android:paddingBottom="5dp"
+                    android:textSize="11sp"
+                    android:layout_alignParentBottom="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingRight="0dp"
+                    android:paddingLeft="0dp"
+                    android:layout_alignParentBottom="true"
+                    android:scaleType="fitCenter"
+                    android:background="@color/zxing_transparent"
+                    android:src="@drawable/comingsoon" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/lnIdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:alpha="0.6"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/imgBtnDevelopmentPlan"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/development_plan" />
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:paddingRight="15dp"
+                        android:visibility="gone"
+                        android:paddingLeft="15dp"
+                        android:layout_alignParentBottom="true"
+                        android:scaleType="fitCenter"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/comingsoon" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="IDP"
+                        android:paddingBottom="5dp"
+                        android:textSize="11sp"
+                        android:layout_alignParentBottom="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                    <ImageButton
+                        android:id="@+id/imgLockIDP"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:padding="28dp"
+                        android:scaleType="fitCenter"
+                        android:enabled="false"
+                        android:clickable="false"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/lock_icon" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnHcChat"
+                android:alpha="0.6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/imgBtnInstantFeedback"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/hc_chat" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="HC Chat"
+                        android:paddingBottom="5dp"
+                        android:textSize="11sp"
+                        android:layout_alignParentBottom="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                    <TextView
+                        android:id="@+id/tv_message_count"
+                        android:layout_width="25dp"
+                        android:visibility="gone"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/white"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/red_circle"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:layout_gravity="right"
+                        android:layout_height="25dp"
+                        android:textSize="11sp"
+                        android:text="99.." />
+                    <ImageButton
+                        android:id="@+id/imgLockHCChat"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:padding="28dp"
+                        android:scaleType="fitCenter"
+                        android:enabled="false"
+                        android:clickable="false"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/lock_icon" />
+                    <!--                    <ImageButton-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="45dp"-->
+<!--                        android:paddingRight="15dp"-->
+<!--                        android:paddingLeft="15dp"-->
+<!--                        android:layout_alignParentBottom="true"-->
+<!--                        android:scaleType="fitCenter"-->
+<!--                        android:background="@color/zxing_transparent"-->
+<!--                        android:src="@drawable/comingsoon" />-->
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/lnAP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:alpha="0.6"
+                android:enabled="false"
+                android:visibility="visible"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/imgBtnActivityPlan"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:scaleType="fitCenter"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/activity_plan" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="AP"
+                        android:paddingBottom="5dp"
+                        android:textSize="11sp"
+                        android:layout_alignParentBottom="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:paddingRight="0dp"
+                        android:paddingLeft="0dp"
+                        android:layout_alignParentBottom="true"
+                        android:scaleType="fitCenter"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/comingsoon" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="invisible"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:scaleType="fitXY"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/activity_plan" />
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:paddingRight="0dp"
+                        android:paddingLeft="0dp"
+                        android:layout_alignParentBottom="true"
+                        android:scaleType="fitXY"
+                        android:background="@color/zxing_transparent"
+                        android:src="@drawable/comingsoon" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="AP"
+                        android:paddingBottom="5dp"
+                        android:textSize="11sp"
+                        android:layout_alignParentBottom="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_icon_pa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="9dp"
+        app:cardUseCompatPadding="true">
+        <LinearLayout
+            android:id="@+id/lnMyPJ"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/penilaian_masa_pj" />
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_alignParentBottom="true"
+                android:scaleType="fitCenter"
+                android:background="@color/zxing_transparent"
+                android:src="@drawable/comingsoon" />
+            </RelativeLayout>
+            <TextView
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penilaian Masa Pejabat" />
+
+            <ImageView
+                android:id="@+id/imgExpandPJ"
+                android:layout_width="50dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:layout_height="50dp"
+                android:src="@drawable/expand_down"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:id="@+id/lnMyPJArea"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/imgBtnStartPJ"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:padding="15dp"
+                    android:scaleType="centerInside"
+                    android:background="@color/zxing_transparent"
+                    android:src="@drawable/pa_team" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Start PJ"
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/imgBtnStatusPJ"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:padding="15dp"
+                    android:scaleType="centerInside"
+                    android:background="@color/zxing_transparent"
+                    android:src="@drawable/status_pa" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Status PJ"
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/imgBtnDevelopmentPlanPJ"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:padding="15dp"
+                    android:scaleType="centerInside"
+                    android:background="@color/zxing_transparent"
+                    android:src="@drawable/development_plan" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Development Plan"
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/imgBtnFinalPJ"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:padding="15dp"
+                    android:scaleType="centerInside"
+                    android:background="@color/zxing_transparent"
+                    android:src="@drawable/final_pa" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Final PJ"
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/imgBtnSelfAppraisalPJ"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:padding="15dp"
+                    android:scaleType="centerInside"
+                    android:background="@color/zxing_transparent"
+                    android:src="@drawable/self_appraisal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Self Appraisal Pj"
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/imgBtnInstantFeedbackPJ"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:padding="15dp"
+                    android:scaleType="centerInside"
+                    android:background="@color/zxing_transparent"
+                    android:src="@drawable/hc_chat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="HC Chat PJ"
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="invisible"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:padding="15dp"
+                    android:scaleType="centerInside"
+                    android:background="@color/zxing_transparent"
+                    android:src="@drawable/event_icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="invisible"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:padding="15dp"
+                    android:scaleType="centerInside"
+                    android:background="@color/zxing_transparent"
+                    android:src="@drawable/event_icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="9dp"
+        app:cardUseCompatPadding="true">
+        <LinearLayout
+            android:id="@+id/lnMyPelatihan"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/penilaian_pelatihan" />
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_alignParentBottom="true"
+                    android:scaleType="fitCenter"
+                    android:background="@color/zxing_transparent"
+                    android:src="@drawable/comingsoon" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penilaian Pelatihan" />
+
+            <ImageView
+                android:id="@+id/imgExpandPelatihan"
+                android:layout_width="50dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:layout_height="50dp"
+                android:src="@drawable/expand_down"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="9dp"
+        app:cardUseCompatPadding="true">
+        <LinearLayout
+            android:id="@+id/lnMyPKWT"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/pkwt" />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_alignParentBottom="true"
+                    android:scaleType="fitCenter"
+                    android:background="@color/zxing_transparent"
+                    android:src="@drawable/comingsoon" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penilaian PKWT" />
+
+            <ImageView
+                android:id="@+id/imgExpandPKWT"
+                android:layout_width="50dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:layout_height="50dp"
+                android:src="@drawable/expand_down"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

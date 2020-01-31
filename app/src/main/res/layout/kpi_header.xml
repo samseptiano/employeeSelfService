@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_margin="0dp"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:background="#94DCD1"
+    android:layout_gravity="center"
+    android:visibility="visible"
+    android:gravity="center">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageButton
+        android:id="@+id/imgBtnEdit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/imgalt" />\
+    <ImageButton
+        android:id="@+id/imgBtnSave"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/imgalt" />
+    <ImageButton
+        android:id="@+id/imgBtnApprove"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/imgalt" />
+    <Spinner
+        android:id="@+id/spinnerPeriode"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal">
+    <View
+        android:id="@+id/HrLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white" />
+    <TextView
+        android:id="@+id/tv_PAType"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:text="Faktor Kualitatif" />
+</LinearLayout>
+</LinearLayout>

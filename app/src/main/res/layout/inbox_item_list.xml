@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+<androidx.cardview.widget.CardView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="0dp"
+    android:outlineAmbientShadowColor="@color/black_overlay"
+    android:outlineSpotShadowColor="@color/black_overlay"
+    app:cardCornerRadius="4dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/lnInbox"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/empPhotoInbox"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/user" />
+    <LinearLayout
+        android:id="@+id/lnMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="13sp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:text="John Doe - 181201101" />
+
+        <TextView
+        android:id="@+id/tv_message"
+            android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+            android:textSize="11sp"
+        android:text="Message..." />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_message_new"
+        android:layout_width="25dp"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:background="@drawable/red_circle"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_height="25dp"
+        android:textSize="11sp"
+        android:text="99.." />
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textSize="11sp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:text="99:99" />
+    </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+    <View
+        android:id="@+id/HrLine2"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@color/black" />
+</LinearLayout>
