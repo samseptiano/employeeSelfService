@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:apps="http://schemas.android.com/tools"
+android:orientation="vertical"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="50dp">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/lnKualitatif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/textView12"
+            android:textStyle="bold"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coaching dan Konseling" />
+
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/edtKelebihann"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:minLines="6"
+            android:hint="Tuliskan kompetensi yang menjadi kelebihan orang yang anda nilai" />
+
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/edtKekurangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Kekurangan"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/edtRencanaTindaklanjut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="40dp"
+            android:hint="Rencana Tindaklanjut"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmitKPI"
+        android:text="Kirim PA"
+        android:textColor="#FCFCFC"
+        android:textSize="14sp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_shape"
+        android:shadowColor="#A8A8A8"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:visibility="gone"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnApproveKPI"
+            android:text="APPROVE PA"
+            android:layout_weight="1"
+            android:textColor="#FCFCFC"
+            android:textSize="14sp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_shape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvFooterTitle"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="KPI"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/lnSummary"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/summary_icon1" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:text="Summary"
+                android:layout_marginBottom="15dp"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/summary_icon2" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:text="Strength"
+            android:layout_marginBottom="15dp"/>
+        <EditText
+            android:id="@+id/edtKelebihan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:maxLength="1000"
+            android:minLines="6"
+            android:gravity="top|left"
+            android:background="@drawable/shapetextarea"
+            android:maxLines="10"
+            android:padding="10dp"
+            android:textSize="14dp"
+            android:textStyle="italic"
+            android:scrollbars="vertical"
+            android:hint="Tuliskan kompetensi yang menjadi kelebihan orang yang anda nilai" />
+
+        <TextView
+            android:id="@+id/tvMaxText"
+            android:gravity="right"
+            android:textColor="@color/dark_grey"
+            android:textSize="11sp"
+            android:textStyle="italic"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0/1000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            android:text="Improvement Area &amp; Development Plan"
+            android:layout_marginBottom="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <requestFocus/>
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinnerImprovement"
+                android:visibility="visible"
+                android:focusable="true"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:background="@drawable/shapetextarea"
+                apps:ms_dropdown_max_height="150dp"
+                apps:ms_dropdown_width="wrap_content"
+                apps:ms_dropdown_height="150dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shapetextarea"
+                android:text="+ Add" />
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:background="@color/zxing_transparent"
+                android:layout_width="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:text="Delete" />
+        </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/rv_improvement_area"
+                android:layout_marginBottom="50dp"
+                android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

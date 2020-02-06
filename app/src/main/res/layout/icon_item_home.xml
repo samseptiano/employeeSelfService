@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/lnIconHome"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:layout_margin="10dp"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_gravity="center"
+        android:layout_height="130dp">
+        <ImageButton
+            android:id="@+id/imgBtnIconHome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:enabled="false"
+            android:clickable="false"
+            android:background="@color/zxing_transparent"
+            android:src="@drawable/imgalt" />
+        <ImageButton
+            android:id="@+id/imgComingSoonHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="0dp"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="0dp"
+            android:scaleType="fitCenter"
+            android:background="@color/zxing_transparent"
+            android:src="@drawable/comingsoon" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tvIconHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Setup PA"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="5dp"
+        android:textSize="14sp"
+        android:layout_below="@id/imgBtnIconHome"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+</LinearLayout>

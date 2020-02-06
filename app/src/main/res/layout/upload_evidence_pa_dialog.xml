@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_custom_layout"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/dialog_bg">
+    <ImageButton
+        android:id="@+id/ib_close"
+        android:layout_width="20dp"
+        android:layout_gravity="right"
+        android:layout_height="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_close_black_24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/close_dialog_bg"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <requestFocus/>
+        <TextView
+            android:id="@+id/tvTarget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="0dp"
+            android:text="Target"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+        <EditText
+            android:id="@+id/edtTarget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:lines="1"
+            android:layout_marginTop="5dp"
+            android:minLines="1"
+            android:text="0"
+            android:gravity="top|left"
+            android:background="@drawable/shapetextarea"
+            android:maxLines="10"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="10dp"
+            android:textSize="14dp"
+            android:textStyle="italic"
+            android:scrollbars="vertical"
+            />
+
+        <TextView
+            android:id="@+id/tvActual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="0dp"
+            android:text="Actual"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+        <EditText
+            android:id="@+id/edtActual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:lines="1"
+            android:layout_marginTop="5dp"
+            android:minLines="1"
+            android:text="0"
+            android:gravity="top|left"
+            android:background="@drawable/shapetextarea"
+            android:maxLines="10"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="10dp"
+            android:textSize="14dp"
+            android:textStyle="italic"
+            android:scrollbars="vertical" />
+
+
+        <TextView
+            android:id="@+id/tvKeterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="0dp"
+            android:text="Note &amp; Evidence"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+        <LinearLayout
+            android:id="@+id/lnKuantitatif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:visibility="visible"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtEvidence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:lines="8"
+                android:minLines="6"
+                android:gravity="top|left"
+                android:background="@drawable/shapetextarea"
+                android:maxLines="10"
+                android:maxLength="1000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:textStyle="italic"
+                android:scrollbars="vertical"
+                android:hint="Tuliskan faktor yang menjadi dasar penilaian anda" />
+            <TextView
+                android:id="@+id/tvMaxText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:text="0/1000"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:orientation="horizontal">
+    <requestFocus/>
+    <TextView
+        android:id="@+id/tvUploadFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="0dp"
+        android:text="Upload File and Photo"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <ImageButton
+        android:id="@+id/imgBtnFile"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:scaleType="fitXY"
+        android:background="@color/zxing_transparent"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/attachment_icon" />
+    <ImageButton
+        android:id="@+id/imgBtnPhoto"
+        android:layout_width="25dp"
+        android:scaleType="fitXY"
+        android:background="@color/zxing_transparent"
+        android:layout_height="25dp"
+        android:src="@drawable/camera_icon" />
+</LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linlaHeaderProgressImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleSmall"
+                    android:id="@+id/pbInboxProgress"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:indeterminate="true">
+                </ProgressBar>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:text="*Max file size 2MB"
+                android:textColor="@color/red"
+                android:textSize="10sp"
+                android:textStyle="italic" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_image_upload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"/>
+
+<!--            <Button-->
+<!--                android:id="@+id/btnUploadImage"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:background="@drawable/button_download_shape"-->
+<!--                android:shadowColor="#A8A8A8"-->
+<!--                android:shadowDx="0"-->
+<!--                android:shadowDy="0"-->
+<!--                android:shadowRadius="5"-->
+<!--                android:text="Upload Document"-->
+<!--                android:textColor="@color/colorAccent"-->
+<!--                android:textSize="14sp" />-->
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
