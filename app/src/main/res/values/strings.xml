@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">Enseval HCM</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_scan">Scan QR</string>
+    <string name="title_event">History</string>
+    <string name="title_category">Category</string>
+    <string name="title_notification">Notification</string>
+    <string name="setting_menu">Settings...</string>
+
+    <string-array name="setting_menu_arrays">
+        <item>Settings</item>
+        <item>Log Out</item>
+        <item>About</item>
+    </string-array>
+
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="sharedPreferences_token">SharedPreferencesToken</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="survey_direction">
+        Kami ingin melayani Anda lebih baik, untuk itu mohon kesediaan Bapak/Ibu untuk memberikan penilaian dan komentar terhadap program pelatihan ini. Terima kasih.
+    </string>
+    <string name="survey_score">Skor Penilaian : 4 = Sangat Puas, 3 = Puas, 2 = Tidak Puas, 1 = Sangat Tidak Puas</string>
+
+    <string name="hint_title">Hint...</string>
+    <string name="hint_container">Skor Penilaian : 4 = Sangat Puas, 3 = Puas, 2 = Tidak Puas, 1 = Sangat Tidak Puas</string>
+
+
+    <string name="Training">Training</string>
+    <string name="Request">Request</string>
+
+    <string-array name="periodePA">
+        <item>Semester 1</item>
+        <item>Semester 2</item>
+        <item>All</item>
+    </string-array>
+    <array name="fruits">
+        <item>Apple</item>
+        <item>Apricot</item>
+        <item>Avocado</item>
+        <item>Banana</item>
+        <item>Bilberry</item>
+        <item>Blackberry</item>
+        <item>Blackcurrant</item>
+        <item>Blueberry</item>
+        <item>Boysenberry</item>
+        <item>Cantaloupe</item>
+        <item>Currant</item>
+        <item>Cherry</item>
+        <item>Cherimoya</item>
+        <item>Cloudberry</item>
+        <item>Coconut</item>
+        <item>Cranberry</item>
+        <item>Damson</item>
+        <item>Date</item>
+        <item>Dragonfruit</item>
+        <item>Durian</item>
+        <item>Elderberry</item>
+        <item>Feijoa</item>
+        <item>Fig</item>
+        <item>Goji berry</item>
+        <item>Gooseberry</item>
+        <item>Grape</item>
+        <item>Raisin</item>
+        <item>Grapefruit</item>
+        <item>Guava</item>
+        <item>Huckleberry</item>
+        <item>Jabuticaba</item>
+        <item>Jackfruit</item>
+        <item>Jambul</item>
+        <item>Jujube</item>
+        <item>Juniper berry</item>
+        <item>Kiwifruit</item>
+        <item>Kumquat</item>
+        <item>Lemon</item>
+        <item>Lime</item>
+        <item>Loquat</item>
+        <item>Longan</item>
+        <item>Lychee</item>
+        <item>Mango</item>
+        <item>Marionberry</item>
+        <item>Melon</item>
+        <item>Cantaloupe</item>
+        <item>Honeydew</item>
+        <item>Watermelon</item>
+        <item>Miracle fruit</item>
+        <item>Mulberry</item>
+        <item>Nectarine</item>
+        <item>Nance</item>
+        <item>Olive</item>
+        <item>Orange</item>
+        <item>Clementine</item>
+        <item>Mandarine</item>
+        <item>Tangerine</item>
+        <item>Papaya</item>
+        <item>Passionfruit</item>
+        <item>Peach</item>
+        <item>Pear</item>
+        <item>Persimmon</item>
+        <item>Physalis</item>
+        <item>Plantain</item>
+        <item>Plum/prune</item>
+        <item>Pineapple</item>
+        <item>Pomegranate</item>
+        <item>Pomelo</item>
+        <item>Purple mangosteen</item>
+        <item>Quince</item>
+        <item>Raspberry</item>
+        <item>Rambutan</item>
+        <item>Redcurrant</item>
+        <item>Salal berry</item>
+        <item>Salak</item>
+        <item>Satsuma</item>
+        <item>Star fruit</item>
+        <item>Strawberry</item>
+        <item>Tamarillo</item>
+        <item>Tamarind</item>
+        <item>Ugli fruit</item>
+    </array>
+
+</resources>
