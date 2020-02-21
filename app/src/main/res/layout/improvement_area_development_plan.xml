@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/lnDevPlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/zxing_transparent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cbDevPlan"
+            android:layout_width="wrap_content"
+            android:background="#ebebeb"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <TextView
+            android:id="@+id/tvNumber"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:visibility="gone"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:background="#ebebeb"
+            android:text="1. " />
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tvDevPlan"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:background="#ebebeb"
+            android:text="Customer Focus" />
+
+        <Button
+            android:id="@+id/btnIdp"
+            android:layout_width="match_parent"
+            android:textSize="11dp"
+            android:textAlignment="textStart"
+            android:layout_height="40dp"
+            android:background="@drawable/shapegreen"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="IDP" />
+    </LinearLayout>
+</LinearLayout>

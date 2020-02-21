@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.KPITahunanFragment.APFragment.ActivityPlanFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingBottom="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imgBtnFinancial"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="20dp"
+            android:background="@color/zxing_transparent"
+            android:src="@drawable/final_pa_img" />
+        <ImageButton
+            android:id="@+id/imgBtnCustomer"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="20dp"
+            android:background="@color/zxing_transparent"
+            android:src="@drawable/distribusi_normal_img" />
+        <ImageButton
+            android:id="@+id/imgBtnInternalProcess"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="20dp"
+            android:background="@color/zxing_transparent"
+            android:src="@drawable/report_img" />
+        <ImageButton
+            android:id="@+id/imgBtnLearnGrowth"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:scaleType="fitXY"
+            android:background="@color/zxing_transparent"
+            android:src="@drawable/report_img" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
