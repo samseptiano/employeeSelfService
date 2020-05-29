@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.steelkiwi:sliding-square-loader-view:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88191caabc1ac6da178d92f9e4cc4353/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88191caabc1ac6da178d92f9e4cc4353/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.steelkiwi/sliding-square-loader-view/1.0.0/c0fb962c83b8adb3ec2b6a450d60b03328f16389/sliding-square-loader-view-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
