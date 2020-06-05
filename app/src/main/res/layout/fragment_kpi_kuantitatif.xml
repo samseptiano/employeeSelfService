@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.enseval.samuelseptiano.hcservice.com.enseval.samuelseptiano.employeeselfservice.Fragment.KPITahunanFragment.KPIKuantitatifTahunanFragment"
+    android:layout_marginBottom="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginBottom="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/empPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/tv_empName"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:text="Emp Name" />
+
+        <TextView
+            android:id="@+id/tv_jobTitle"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:text="Job Title" />
+
+        <TextView
+            android:id="@+id/tv_branchName"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content"
+            android:text="Dept - Branch Name" />
+
+        <LinearLayout
+            android:id="@+id/lnEmpDetail"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="Atasan 1          :" />
+                <TextView
+                    android:id="@+id/tvAtasan1"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="Jabatan          :" />
+                <TextView
+                    android:id="@+id/tvJobTitleAtasan1"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="Atasan 2          :" />
+                <TextView
+                    android:id="@+id/tvAtasan2"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="Jabatan          :" />
+                <TextView
+                    android:id="@+id/tvJobTitleAtasan2"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="Tujuan Penilaian          :" />
+                <TextView
+                    android:id="@+id/tvPurpose"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="Periode          :" />
+                <TextView
+                    android:id="@+id/tvPeriode"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/imgExpandDetail"
+            android:layout_width="30dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:background="@color/zxing_transparent"
+            android:src="@drawable/expand_down" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#94DCD1"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/imgBtnSubmit"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:background="@color/zxing_transparent"
+            android:layout_margin="3dp"
+            android:src="@drawable/edit_kpi" />\
+        <ImageButton
+            android:id="@+id/imgBtnSave"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_margin="3dp"
+            android:scaleType="fitXY"
+            android:background="@color/zxing_transparent"
+            android:src="@drawable/save_kpi" />
+        <ImageButton
+            android:id="@+id/imgBtnApprove"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_margin="3dp"
+            android:scaleType="fitXY"
+            android:background="@color/zxing_transparent"
+            android:src="@drawable/approve_kpi" />
+        <ImageButton
+            android:id="@+id/imgBtnSetupPA"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_margin="3dp"
+            android:visibility="gone"
+            android:scaleType="fitXY"
+            android:background="@color/zxing_transparent"
+            android:src="@drawable/setup_pa_kpi" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/imgbtnViewResult"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_margin="3dp"
+            android:scaleType="fitXY"
+            android:background="@color/zxing_transparent"
+            android:src="@drawable/view_result" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--<android.support.v4.widget.SwipeRefreshLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/swipeContainer"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#94DCD1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linlaHeaderProgressPA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:visibility="gone" >
+            <!--            <com.steelkiwi.library.SlidingSquareLoaderView-->
+            <!--                android:id="@+id/view"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                app:sslv_corner_radius="8dp"-->
+            <!--                app:sslv_margin="15dp"-->
+            <!--                app:sslv_end_gradient_color="@color/end_gradient_color"-->
+            <!--                app:sslv_start_gradient_color="@color/start_gradient_color"-->
+            <!--                app:sslv_background_color="@color/background"-->
+            <!--                app:sslv_square_size="@dimen/square_size"/>-->
+
+            <!--            <com.comix.overwatch.HiveProgressView-->
+            <!--                android:layout_width="150dp"-->
+            <!--                android:layout_height="150dp"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                app:hive_animDuration="3000"-->
+            <!--                app:hive_color="@color/colorAccent"-->
+            <!--                app:hive_maxAlpha="255"-->
+            <!--                app:hive_rainbow="true"-->
+            <!--                app:hive_cornerRadius="20"-->
+            <!--                app:hive_shrink="true"-->
+            <!--                app:hive_image="@color/colorAccent"-->
+            <!--                />-->
+            <ProgressBar
+                android:id="@+id/pbHeaderProgress"
+                style="progressbars"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:outlineAmbientShadowColor="@color/red"
+                android:layout_gravity="center"
+                android:outlineSpotShadowColor="@color/red"
+                android:indeterminate="true"></ProgressBar>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewKPI"
+            android:layout_width="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="#94DCD1"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" />
+        <ImageView
+            android:id="@+id/imgNoResult"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:scaleType="fitCenter"
+            android:layout_height="wrap_content"
+            android:src="@drawable/no_results_found" />
+
+        <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+    </LinearLayout>
+</LinearLayout>

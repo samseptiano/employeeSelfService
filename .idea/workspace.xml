@@ -1,0 +1,1952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_3a_xl" />
+        <device id="Nexus 9" />
+        <device id="pixel" />
+        <device id="Nexus 7" />
+        <device id="pixel_3_xl" />
+        <device id="pixel_3a" />
+        <device id="Nexus 7 2013" />
+        <device id="pixel_c" />
+        <device id="Nexus 6" />
+        <device id="pixel_2" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="toke" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/DistribusiNormalAdapter/PerhitunganPAAdapter.java" description="holder.tvRange.setText(perhitungaanList.getRange()..." line="87" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="913e1255-ffd0-46e7-a1c8-9c87ead2d9a9" name="Default" comment="Phase 1, optimize ShowCaseView">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_1_0_alpha3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_rules_1_1_0_alpha3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_1_0_alpha3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Activity/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Activity/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconHomeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconHomeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconPenilaianKinerjaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconPenilaianKinerjaAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Application/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Application/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Firebase/MyFirebaseMessagingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Firebase/MyFirebaseMessagingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceReviewFragment/PerformanceAppraisalFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceReviewFragment/PerformanceAppraisalFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/SubMenuSetting/SettingMenuFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/SubMenuSetting/SettingMenuFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/APIModel/User/userBodyParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/APIModel/User/userBodyParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Session/SessionManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Session/SessionManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/setting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/enseval/samuelseptiano/hcservice/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/enseval/samuelseptiano/hcservice/ExampleUnitTest.java" afterDir="false" />
+    </list>
+    <ignored path="EmployeeSelfService.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/classes/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="51ab23e4" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="EmployeeSelfService" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="EmployeeSelfService" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/MyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="153" column="89" selection-start-line="153" selection-start-column="89" selection-end-line="153" selection-end-column="89" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2588#2589#0" expanded="true" />
+                <element signature="e#2616#2617#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="177" column="68" selection-start-line="177" selection-start-column="68" selection-end-line="177" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Api/ApiInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Firebase/MyFirebaseMessagingService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Activity/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="191" column="107" selection-start-line="191" selection-start-column="64" selection-end-line="191" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/NetworkConnection/ConnectivityReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/RoutingTemplateHomeDetail/RoutingHomeDetail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="42" column="67" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Helper/UserRealmHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Activity/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="522" column="11" lean-forward="true" selection-start-line="522" selection-start-column="11" selection-end-line="522" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#25762#26083#0" />
+                <element signature="e#26088#26812#0" />
+                <element signature="e#26817#27284#0" />
+                <element signature="e#27289#28232#0" />
+                <element signature="e#28237#28929#0" />
+                <element signature="e#28934#29606#0" />
+                <element signature="e#57476#57695#0" />
+                <element signature="e#57701#73206#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Application/MyApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>KPIKuantitatifFragment</find>
+      <find>instanceof KPIKuantitatifTahunanFragment</find>
+      <find>instanceof SetupPK</find>
+      <find>piccom</find>
+      <find>pichrse</find>
+      <find>email</find>
+      <find>btnapprove.seton</find>
+      <find>btnapprove.setonclic</find>
+      <find>call</find>
+      <find>progres</find>
+      <find>progress</find>
+      <find>getpakpi</find>
+      <find>initQuestionsAdapter</find>
+      <find>usr.</find>
+      <find>realm</find>
+      <find>vers</find>
+      <find>onresume</find>
+      <find>startse</find>
+      <find>reseta</find>
+      <find>module</find>
+      <find>iconhomeada</find>
+      <find>foto</find>
+      <find>logo</find>
+      <find>islogg</find>
+      <find>session</find>
+      <find>mdl</find>
+      <find>user</find>
+      <find>logout</find>
+      <find>service</find>
+      <find>startservice</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>List&lt;EventAbsentUser&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\samuel.septiano\Documents\SAMUEL SEPTIANO\SAMUEL SEPTIANO\KEYSTORE\HCKIOSK.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_kpi_kuantitatif.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_performance_appraisal.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/SetupPKFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/SetupPKKualitatifDBFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/SetupPKKuantitatifDBFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceAppraisalPKFragment/TotalFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/APIModel/KPI/PJ/KPIAnswerListPK.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/MVVM/DistNormal/ItemAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/DistribusiNormalAdapter/PerhitunganPAEmpAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/FinalPAFragments/DistribusiNormalFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/APIModel/KPI/PJ/KPIHeaderPJ.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/img_dialog_result_pk.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/APIModel/SetupPA/PASetting/EmailSentModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/KPIKuantitatifTahunanFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Api/ApiClient.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/APIModel/KPI/PJ/KPIApproveListPJ.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceAppraisalPKFragment/ManagerFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Api/ApiInterface.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/VersionModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Activity/UpdateActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Activity/GuidelineActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/ModuleModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/IconModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/RealmModel/ModuleRealmModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Helper/ModuleRealmHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/HCRoadmapFragment/HCRoadmapFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/TalentManagementFragment/TalentManagementFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/HCPerformanceFragment/HCPerformanceFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/HCAssessmentFragment/HCAssessmentFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_setting_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceReviewFragment/PerformanceReviewFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/skip_showcase.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceReviewFragment/PerformanceAppraisalFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconHomeAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconPenilaianKinerjaAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Session/SessionManagement.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/SubMenuSetting/SettingMenuFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/setting.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Application/MyApplication.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/enseval/samuelseptiano/hcservice/ExampleUnitTest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Firebase/FirebaseIDService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Activity/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/APIModel/User/userBodyParameter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Firebase/MyFirebaseMessagingService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/MyService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Activity/MainActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1050" />
+    <option name="y" value="222" />
+    <option name="width" value="816" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages AndroidView="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EmployeeSelfService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmployeeSelfService" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EmployeeSelfService" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="EmployeeSelfService" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="EmployeeSelfService" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmployeeSelfService" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="enseval" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmployeeSelfService" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="enseval" type="462c0819:PsiDirectoryNode" />
+              <item name="samuelseptiano" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmployeeSelfService" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="enseval" type="462c0819:PsiDirectoryNode" />
+              <item name="samuelseptiano" type="462c0819:PsiDirectoryNode" />
+              <item name="hcservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmployeeSelfService" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="enseval" type="462c0819:PsiDirectoryNode" />
+              <item name="samuelseptiano" type="462c0819:PsiDirectoryNode" />
+              <item name="hcservice" type="462c0819:PsiDirectoryNode" />
+              <item name="Activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmployeeSelfService" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="enseval" type="462c0819:PsiDirectoryNode" />
+              <item name="samuelseptiano" type="462c0819:PsiDirectoryNode" />
+              <item name="hcservice" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmployeeSelfService" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="enseval" type="462c0819:PsiDirectoryNode" />
+              <item name="samuelseptiano" type="462c0819:PsiDirectoryNode" />
+              <item name="hcservice" type="462c0819:PsiDirectoryNode" />
+              <item name="Firebase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmployeeSelfService" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/app/release/app-release.apk" />
+    <property name="DEBUGGABLE_DEVICE" value="samsung-sm_t819y-51ab23e4" />
+    <property name="DEBUGGABLE_PROCESS" value="com.enseval.samuelseptiano.hcservice" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_6_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-05-28T10:24:18.101Z" />
+    <property name="ExportApk.ApkPath" value="C:\Users\samuel.septiano\Documents\SAMUEL SEPTIANO\BACKUP C\AndroidStudioProjects\EmployeeSelfService\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BACKUP C\AndroidStudioProjects\EmployeeSelfService\app\src\main\res\drawable" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.samuelseptiano.employeeselfservice.Fragment.KPITahunanFragment.SetupPA" />
+      <recent name="com.example.samuelseptiano.employeeselfservice.Fragment.KPITahunanFragment" />
+      <recent name="com.example.samuelseptiano.employeeselfservice.Model.APIModel.KPI.PJ" />
+      <recent name="com.example.samuelseptiano.employeeselfservice.MVVM.Home" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.enseval.samuelseptiano.hcservice.Activity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.enseval.samuelseptiano.hcservice.Model.APIModel.KPI.PJ" />
+      <recent name="com.enseval.samuelseptiano.hcservice.Adapter.RecyclerViewAdapter.KPIAdapter" />
+      <recent name="com.enseval.samuelseptiano.hcservice.ExpandableListAdapter" />
+      <recent name="com.enseval.samuelseptiano.hcservice.Model" />
+      <recent name="com.enseval.samuelseptiano.hcservice.Adapter.RecyclerViewAdapter.DistribusiNormalAdapter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\samuel.septiano\Documents\SAMUEL SEPTIANO\BACKUP C\AndroidStudioProjects\EmployeeSelfService\app\src\main\res\layout" />
+      <recent name="C:\Users\samuel.septiano\Documents\SAMUEL SEPTIANO\BACKUP C\AndroidStudioProjects\EmployeeSelfService\app\src\main\res\drawable" />
+      <recent name="C:\Users\samuel.septiano\Documents\SAMUEL SEPTIANO\BACKUP C\AndroidStudioProjects\EmployeeSelfService\app\src\main\java\com\enseval\samuelseptiano\hcservice\Fragment\KPIMasaJabatanFragment\SetupPK" />
+      <recent name="C:\Users\samuel.septiano\Documents\SAMUEL SEPTIANO\BACKUP C\AndroidStudioProjects\EmployeeSelfService\app\src\main\java\com\enseval\samuelseptiano\hcservice\Adapter\RecyclerViewAdapter\SetupPKAdapter" />
+      <recent name="C:\Users\samuel.septiano\Documents\SAMUEL SEPTIANO\BACKUP C\AndroidStudioProjects\EmployeeSelfService\app\src\main\java\com\enseval\samuelseptiano\hcservice\Adapter\RecyclerViewAdapter\" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="All in app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.All in app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="913e1255-ffd0-46e7-a1c8-9c87ead2d9a9" name="Default" comment="" />
+      <created>1570603235205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570603235205</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Phase 1, optimize ShowCaseView">
+      <created>1590659694263</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590659694263</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Phase 1, optimize ShowCaseView">
+      <created>1590660097632</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590660097632</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixing bug showcase">
+      <created>1590715803037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590715803037</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_app - 2020.01.29 at 20h 03m 53s.xml">
+      <configuration name="All in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="All_in_app - 2020.05.31 at 09h 09m 23s.xml">
+      <configuration name="All in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="All_in_app - 2020.05.31 at 09h 21m 54s.xml">
+      <configuration name="All in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="All_in_app - 2020.05.31 at 09h 53m 01s.xml">
+      <configuration name="All in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="All_in_app - 2020.06.02 at 08h 07m 40s.xml">
+      <configuration name="All in app" configurationId="AndroidJUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8216704" visible="true" weight="0.27044535" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Build Variants" order="2" sideWeight="0.23076923" side_tool="true" weight="0.19757085" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Palette&#9;" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.17832957" side_tool="true" weight="0.28178138" />
+      <window_info id="Captures" order="8" sideWeight="0.18246445" side_tool="true" weight="0.28987855" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.702834" weight="0.5186501" />
+      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.83319837" weight="0.30195382" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49871466" weight="0.3285968" />
+      <window_info anchor="bottom" id="Android Monitor" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993573" weight="0.053285968" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.10121457" side_tool="true" weight="0.22912966" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4993573" weight="0.044444446" />
+      <window_info anchor="bottom" id="Gradle Console" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.30362117" />
+      <window_info anchor="bottom" id="Build" order="12" sideWeight="0.83157897" weight="0.330373" />
+      <window_info anchor="bottom" id="Android Profiler" order="13" sideWeight="0.49878544" weight="0.09413854" />
+      <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Logcat" order="15" sideWeight="0.8987854" weight="0.5328597" />
+      <window_info anchor="bottom" id="Run" order="16" sideWeight="0.72550607" visible="true" weight="0.18650089" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Designer" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Android WiFi ADB" order="5" weight="0.32955465" />
+      <window_info anchor="right" id="Android Model" order="6" side_tool="true" />
+      <window_info anchor="right" id="Assistant" order="7" weight="0.32955465" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Preview" order="9" weight="0.10850202" />
+      <window_info anchor="right" id="Flutter Inspector" order="10" />
+      <window_info anchor="right" id="Flutter Outline" order="11" weight="0.019280206" />
+      <window_info anchor="right" id="Device File Explorer" order="12" side_tool="true" weight="0.32955465" />
+      <window_info anchor="right" id="Gradle" order="13" weight="0.32955465" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8216704" visible="true" weight="0.2769231" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Build Variants" order="2" sideWeight="0.23076923" side_tool="true" weight="0.19757085" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Palette&#9;" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.17832957" side_tool="true" weight="0.28178138" />
+      <window_info id="Captures" order="8" sideWeight="0.18246445" side_tool="true" weight="0.28987855" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.702834" weight="0.5186501" />
+      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.83319837" weight="0.30195382" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49871466" weight="0.3285968" />
+      <window_info anchor="bottom" id="Android Monitor" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993573" weight="0.053285968" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.10121457" side_tool="true" visible="true" weight="0.22912966" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4993573" weight="0.044444446" />
+      <window_info anchor="bottom" id="Gradle Console" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.30362117" />
+      <window_info anchor="bottom" id="Build" order="12" sideWeight="0.83157897" weight="0.330373" />
+      <window_info anchor="bottom" id="Android Profiler" order="13" sideWeight="0.49878544" weight="0.09413854" />
+      <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Logcat" order="15" sideWeight="0.8987854" visible="true" weight="0.22912966" />
+      <window_info anchor="bottom" id="Run" order="16" sideWeight="0.72550607" weight="0.74955595" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Designer" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Android WiFi ADB" order="5" weight="0.32955465" />
+      <window_info anchor="right" id="Android Model" order="6" side_tool="true" />
+      <window_info anchor="right" id="Assistant" order="7" weight="0.32955465" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Preview" order="9" weight="0.10850202" />
+      <window_info anchor="right" id="Flutter Inspector" order="10" />
+      <window_info anchor="right" id="Flutter Outline" order="11" weight="0.019280206" />
+      <window_info anchor="right" id="Device File Explorer" order="12" side_tool="true" weight="0.32955465" />
+      <window_info anchor="right" id="Gradle" order="13" weight="0.32955465" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/../GIT/ensevalHCM-Android" />
+    </ignored-roots>
+    <MESSAGE value="Phase 1, optimize ShowCaseView" />
+    <MESSAGE value="fixing bug showcase" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing bug showcase" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/SetupPA/PositionSetupDetailPAFragment.java</url>
+          <line>253</line>
+          <properties />
+          <option name="timeStamp" value="622" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPAAdapter/PositionKualitatifSetupPAAdapter.java</url>
+          <line>356</line>
+          <properties />
+          <option name="timeStamp" value="648" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/KPIKuantitatifTahunanFragment.java</url>
+          <line>2022</line>
+          <properties />
+          <option name="timeStamp" value="872" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/KPIKuantitatifTahunanFragment.java</url>
+          <line>2815</line>
+          <properties />
+          <option name="timeStamp" value="932" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/KPIKuantitatifTahunanFragment.java</url>
+          <line>2425</line>
+          <properties />
+          <option name="timeStamp" value="944" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/KPIKuantitatifTahunanFragment.java</url>
+          <line>2412</line>
+          <properties />
+          <option name="timeStamp" value="946" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/KPIKuantitatifTahunanFragment.java</url>
+          <line>2465</line>
+          <properties />
+          <option name="timeStamp" value="947" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/KPIKuantitatifTahunanFragment.java</url>
+          <line>3136</line>
+          <properties />
+          <option name="timeStamp" value="951" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/SetupPA/PositionSetupDetailPAFragment.java</url>
+          <line>946</line>
+          <properties />
+          <option name="timeStamp" value="974" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPAAdapter/PositionSetupDetailPAAdapter.java</url>
+          <line>377</line>
+          <properties />
+          <option name="timeStamp" value="986" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPAAdapter/PositionSetupDetailKualitatifPAAdapter.java</url>
+          <line>329</line>
+          <properties />
+          <option name="timeStamp" value="988" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPAAdapter/PositionSetupDetailKualitatifPAAdapter.java</url>
+          <line>409</line>
+          <properties />
+          <option name="timeStamp" value="990" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>1735</line>
+          <properties />
+          <option name="timeStamp" value="999" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>1638</line>
+          <properties />
+          <option name="timeStamp" value="1050" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>2328</line>
+          <properties />
+          <option name="timeStamp" value="1065" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>2334</line>
+          <properties />
+          <option name="timeStamp" value="1066" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>2355</line>
+          <properties />
+          <option name="timeStamp" value="1067" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapter/KPIImageUploadAdapter.java</url>
+          <line>211</line>
+          <properties />
+          <option name="timeStamp" value="1069" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapter/KPIImageUploadAdapter.java</url>
+          <line>217</line>
+          <properties />
+          <option name="timeStamp" value="1070" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>3235</line>
+          <properties />
+          <option name="timeStamp" value="1072" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>3239</line>
+          <properties />
+          <option name="timeStamp" value="1073" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPKAdapter/EmployeeSetupPKAdapter.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="1100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPKAdapter/EmployeeSetupPKAdapter.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="1101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPKAdapter/EmployeeSetupDetailPKAdapter.java</url>
+          <line>319</line>
+          <properties />
+          <option name="timeStamp" value="1107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPKAdapter/EmployeeSetupDetailPKAdapter.java</url>
+          <line>320</line>
+          <properties />
+          <option name="timeStamp" value="1108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/EmployeeSetupDetailPKFragment.java</url>
+          <line>426</line>
+          <properties />
+          <option name="timeStamp" value="1109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/EmployeeSetupDetailPKFragment.java</url>
+          <line>421</line>
+          <properties />
+          <option name="timeStamp" value="1110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/EmployeeSetupDetailPKFragment.java</url>
+          <line>373</line>
+          <properties />
+          <option name="timeStamp" value="1114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/EmployeeSetupDetailPKFragment.java</url>
+          <line>165</line>
+          <properties />
+          <option name="timeStamp" value="1116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPKAdapter/EmployeeSetupDetailPKAdapter.java</url>
+          <line>276</line>
+          <properties />
+          <option name="timeStamp" value="1117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPAAdapter/EmployeeSetupDetailPAAdapter.java</url>
+          <line>332</line>
+          <properties />
+          <option name="timeStamp" value="1118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/SetupPA/SetupPAKuantitatifDBFragment.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="1122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/SetupPA/PositionSetupDetailPAFragment.java</url>
+          <line>278</line>
+          <properties />
+          <option name="timeStamp" value="1123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/SetupPA/PositionSetupDetailPAFragment.java</url>
+          <line>283</line>
+          <properties />
+          <option name="timeStamp" value="1124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/PositionSetupDetailPKFragment.java</url>
+          <line>736</line>
+          <properties />
+          <option name="timeStamp" value="1126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/PositionSetupDetailPKFragment.java</url>
+          <line>277</line>
+          <properties />
+          <option name="timeStamp" value="1127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/PositionSetupDetailPKFragment.java</url>
+          <line>282</line>
+          <properties />
+          <option name="timeStamp" value="1128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/PositionSetupDetailPKFragment.java</url>
+          <line>283</line>
+          <properties />
+          <option name="timeStamp" value="1129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPKAdapter/PositionSetupPKAdapter.java</url>
+          <line>344</line>
+          <properties />
+          <option name="timeStamp" value="1136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPKAdapter/PositionSetupPKAdapter.java</url>
+          <line>349</line>
+          <properties />
+          <option name="timeStamp" value="1137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPKAdapter/PositionSetupPKAdapter.java</url>
+          <line>348</line>
+          <properties />
+          <option name="timeStamp" value="1138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPKAdapter/PositionSetupPKAdapter.java</url>
+          <line>351</line>
+          <properties />
+          <option name="timeStamp" value="1139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPKAdapter/PositionSetupPKAdapter.java</url>
+          <line>367</line>
+          <properties />
+          <option name="timeStamp" value="1141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPKAdapter/PositionKualitatifSetupPKAdapter.java</url>
+          <line>340</line>
+          <properties />
+          <option name="timeStamp" value="1143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPKAdapter/PositionKualitatifSetupPKAdapter.java</url>
+          <line>346</line>
+          <properties />
+          <option name="timeStamp" value="1146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPKAdapter/PositionKualitatifSetupPKAdapter.java</url>
+          <line>362</line>
+          <properties />
+          <option name="timeStamp" value="1147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/PositionSetupDetailPKFragment.java</url>
+          <line>420</line>
+          <properties />
+          <option name="timeStamp" value="1148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/PositionSetupDetailPKFragment.java</url>
+          <line>425</line>
+          <properties />
+          <option name="timeStamp" value="1149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/PositionSetupDetailPKFragment.java</url>
+          <line>486</line>
+          <properties />
+          <option name="timeStamp" value="1151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/PositionSetupDetailPKFragment.java</url>
+          <line>452</line>
+          <properties />
+          <option name="timeStamp" value="1153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/PositionSetupDetailPKFragment.java</url>
+          <line>453</line>
+          <properties />
+          <option name="timeStamp" value="1154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/PositionSetupDetailPKFragment.java</url>
+          <line>456</line>
+          <properties />
+          <option name="timeStamp" value="1158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/PositionSetupDetailPKFragment.java</url>
+          <line>950</line>
+          <properties />
+          <option name="timeStamp" value="1159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/SetupPKAdapter/PositionSetupDetailKualitatifPKAdapter.java</url>
+          <line>368</line>
+          <properties />
+          <option name="timeStamp" value="1160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/ChatFragment.java</url>
+          <line>472</line>
+          <properties />
+          <option name="timeStamp" value="1208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapter/KPIAdapter.java</url>
+          <line>849</line>
+          <properties />
+          <option name="timeStamp" value="1210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapter/KPIAdapter.java</url>
+          <line>876</line>
+          <properties />
+          <option name="timeStamp" value="1228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapter/KPIAdapter.java</url>
+          <line>870</line>
+          <properties />
+          <option name="timeStamp" value="1229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapterTahunan/KPIAdapterTahunan.java</url>
+          <line>865</line>
+          <properties />
+          <option name="timeStamp" value="1230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapterTahunan/KPIAdapterTahunan.java</url>
+          <line>885</line>
+          <properties />
+          <option name="timeStamp" value="1232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapterTahunan/KPIAdapterTahunan.java</url>
+          <line>892</line>
+          <properties />
+          <option name="timeStamp" value="1234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapter/KPIAdapter.java</url>
+          <line>880</line>
+          <properties />
+          <option name="timeStamp" value="1235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>3265</line>
+          <properties />
+          <option name="timeStamp" value="1242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceAppraisalPKFragment/TotalFragment.java</url>
+          <line>317</line>
+          <properties />
+          <option name="timeStamp" value="1243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/DevelopmentPlanDetailFragment.java</url>
+          <line>1166</line>
+          <properties />
+          <option name="timeStamp" value="1253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/KPIKuantitatifTahunanFragment.java</url>
+          <line>4207</line>
+          <properties />
+          <option name="timeStamp" value="1255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/KPIKuantitatifTahunanFragment.java</url>
+          <line>4252</line>
+          <properties />
+          <option name="timeStamp" value="1263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/KPIKuantitatifTahunanFragment.java</url>
+          <line>1729</line>
+          <properties />
+          <option name="timeStamp" value="1265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/SetupPKKuantitatifDBFragment.java</url>
+          <line>426</line>
+          <properties />
+          <option name="timeStamp" value="1267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>3234</line>
+          <properties />
+          <option name="timeStamp" value="1269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>1130</line>
+          <properties />
+          <option name="timeStamp" value="1270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>1122</line>
+          <properties />
+          <option name="timeStamp" value="1271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>2498</line>
+          <properties />
+          <option name="timeStamp" value="1285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/ChatFragment.java</url>
+          <line>493</line>
+          <properties />
+          <option name="timeStamp" value="1291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapterTahunan/ListImprovementAreaAdapter.java</url>
+          <line>263</line>
+          <properties />
+          <option name="timeStamp" value="1293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapterTahunan/ListImprovementAreaAdapter.java</url>
+          <line>267</line>
+          <properties />
+          <option name="timeStamp" value="1295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapterTahunan/ListImprovementAreaAdapter.java</url>
+          <line>273</line>
+          <properties />
+          <option name="timeStamp" value="1296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapterTahunan/ListImprovementAreaAdapter.java</url>
+          <line>277</line>
+          <properties />
+          <option name="timeStamp" value="1297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapterTahunan/ListImprovementAreaAdapter.java</url>
+          <line>276</line>
+          <properties />
+          <option name="timeStamp" value="1298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapterTahunan/ListImprovementAreaAdapter.java</url>
+          <line>281</line>
+          <properties />
+          <option name="timeStamp" value="1299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapterTahunan/ListImprovementAreaAdapter.java</url>
+          <line>283</line>
+          <properties />
+          <option name="timeStamp" value="1300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapterTahunan/ListImprovementAreaAdapter.java</url>
+          <line>256</line>
+          <properties />
+          <option name="timeStamp" value="1301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/KPIAdapterTahunan/ListImprovementAreaAdapter.java</url>
+          <line>257</line>
+          <properties />
+          <option name="timeStamp" value="1302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>3075</line>
+          <properties />
+          <option name="timeStamp" value="1305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>3079</line>
+          <properties />
+          <option name="timeStamp" value="1306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPITahunanFragment/KPIKuantitatifTahunanFragment.java</url>
+          <line>2184</line>
+          <properties />
+          <option name="timeStamp" value="1307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>1115</line>
+          <properties />
+          <option name="timeStamp" value="1309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>1603</line>
+          <properties />
+          <option name="timeStamp" value="1316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>2005</line>
+          <properties />
+          <option name="timeStamp" value="1321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/EmployeeSetupDetailPKFragment.java</url>
+          <line>226</line>
+          <properties />
+          <option name="timeStamp" value="1327" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/SetupPKKuantitatifDBFragment.java</url>
+          <line>444</line>
+          <properties />
+          <option name="timeStamp" value="1329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/SetupPK/EmployeeSetupDetailPKFragment.java</url>
+          <line>218</line>
+          <properties />
+          <option name="timeStamp" value="1331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceAppraisalPKFragment/ManagerFragment.java</url>
+          <line>451</line>
+          <properties />
+          <option name="timeStamp" value="1347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceAppraisalPKFragment/ManagerFragment.java</url>
+          <line>452</line>
+          <properties />
+          <option name="timeStamp" value="1349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceAppraisalPKFragment/ManagerFragment.java</url>
+          <line>205</line>
+          <properties />
+          <option name="timeStamp" value="1350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceAppraisalPKFragment/ManagerFragment.java</url>
+          <line>456</line>
+          <properties />
+          <option name="timeStamp" value="1354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceAppraisalPKFragment/ManagerFragment.java</url>
+          <line>462</line>
+          <properties />
+          <option name="timeStamp" value="1355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceAppraisalPKFragment/ManagerFragment.java</url>
+          <line>453</line>
+          <properties />
+          <option name="timeStamp" value="1356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceAppraisalPKFragment/ManagerFragment.java</url>
+          <line>466</line>
+          <properties />
+          <option name="timeStamp" value="1358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceAppraisalPKFragment/ManagerFragment.java</url>
+          <line>463</line>
+          <properties />
+          <option name="timeStamp" value="1359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceAppraisalPKFragment/ManagerFragment.java</url>
+          <line>291</line>
+          <properties />
+          <option name="timeStamp" value="1361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceAppraisalPKFragment/ManagerFragment.java</url>
+          <line>455</line>
+          <properties />
+          <option name="timeStamp" value="1362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>1353</line>
+          <properties />
+          <option name="timeStamp" value="1369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>1292</line>
+          <properties />
+          <option name="timeStamp" value="1370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>1418</line>
+          <properties />
+          <option name="timeStamp" value="1372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>1900</line>
+          <properties />
+          <option name="timeStamp" value="1375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>1884</line>
+          <properties />
+          <option name="timeStamp" value="1381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>2188</line>
+          <properties />
+          <option name="timeStamp" value="1386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/KPIMasaJabatanFragment/KPIKuantitatifFragment.java</url>
+          <line>2187</line>
+          <properties />
+          <option name="timeStamp" value="1387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Activity/UpdateActivity.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="1390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconHomeAdapter.java</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="1405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconHomeAdapter.java</url>
+          <line>219</line>
+          <properties />
+          <option name="timeStamp" value="1409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconHomeAdapter.java</url>
+          <line>222</line>
+          <properties />
+          <option name="timeStamp" value="1410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconHomeAdapter.java</url>
+          <line>168</line>
+          <properties />
+          <option name="timeStamp" value="1411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconHomeAdapter.java</url>
+          <line>169</line>
+          <properties />
+          <option name="timeStamp" value="1412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconHomeAdapter.java</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="1413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconHomeAdapter.java</url>
+          <line>197</line>
+          <properties />
+          <option name="timeStamp" value="1414" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconHomeAdapter.java</url>
+          <line>150</line>
+          <properties />
+          <option name="timeStamp" value="1415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Session/SessionManagement.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="1419" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconHomeAdapter.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="1420" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconHomeAdapter.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="1421" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="apiService" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_guideline.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Activity/GuidelineActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/ModuleModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="e#560#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/ImageUploadModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/IconModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/RealmModel/ModuleRealmModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="12" column="136" selection-start-line="12" selection-start-column="136" selection-end-line="12" selection-end-column="136" />
+          <folding>
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Helper/ModuleRealmHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="110" column="58" selection-start-line="110" selection-start-column="58" selection-end-line="110" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/TalentManagementFragment/TalentManagementFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="74" column="69" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/HCPerformanceFragment/HCPerformanceFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="74" column="69" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/HCAssessmentFragment/HCAssessmentFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Activity/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_setting_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/HCRoadmapFragment/HCRoadmapFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/skip_showcase.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.deano2390/MaterialShowcaseView/1.2.0/b91bdd754b7b0e61855430254b939a1a65c80b5f/MaterialShowcaseView-1.2.0-sources.jar!/uk/co/deanwild/materialshowcaseview/MaterialShowcaseSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="115" column="26" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceReviewFragment/PerformanceReviewFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/kpi_hint_dialog.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.deano2390/MaterialShowcaseView/1.2.0/b91bdd754b7b0e61855430254b939a1a65c80b5f/MaterialShowcaseView-1.2.0-sources.jar!/uk/co/deanwild/materialshowcaseview/PrefsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-533">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.deano2390/MaterialShowcaseView/1.2.0/b91bdd754b7b0e61855430254b939a1a65c80b5f/MaterialShowcaseView-1.2.0-sources.jar!/uk/co/deanwild/materialshowcaseview/MaterialShowcaseView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="866" column="12" selection-start-line="866" selection-start-column="12" selection-end-line="866" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/InstantFeedbackFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.amlcurran.showcaseview/library/5.4.3/ad6944a7aab3ac896d34d4a783cf7ceca1808ff8/library-5.4.3-sources.jar!/com/github/amlcurran/showcaseview/targets/ViewTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/PerformanceReviewFragment/PerformanceAppraisalFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="809" column="53" selection-start-line="809" selection-start-column="25" selection-end-line="809" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="665" column="61" selection-start-line="665" selection-start-column="61" selection-end-line="665" selection-end-column="61" />
+          <folding>
+            <element signature="e#7618#7706#0" />
+            <element signature="e#12140#12943#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconHomeAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="202" column="33" selection-start-line="202" selection-end-line="203" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4010#4086#0" />
+            <element signature="e#8947#9017#0" />
+            <element signature="class#10556:10730" />
+            <element signature="e#11445#11446#0" expanded="true" />
+            <element signature="e#11554#11555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Adapter/RecyclerViewAdapter/IconPenilaianKinerjaAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="171" selection-start-line="171" selection-end-line="171" />
+          <folding>
+            <element signature="e#4445#4446#0" expanded="true" />
+            <element signature="e#4521#4522#0" expanded="true" />
+            <element signature="e#8694#8695#0" expanded="true" />
+            <element signature="e#8770#8771#0" expanded="true" />
+            <element signature="e#8552#8553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Session/SessionManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="140" column="48" selection-start-line="140" selection-start-column="48" selection-end-line="140" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/NotificationFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Fragment/SubMenuSetting/SettingMenuFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/setting.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/RealmModel/UserEventsRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/RealmModel/UserEvents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Helper/UserEventRealmHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2411">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/RealmModel/UserRealmModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-595">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Helper/UserAnswerRealmHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/enseval/samuelseptiano/hcservice/ExampleInstrumentedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Application/MyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Helper/UserRealmHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/NetworkConnection/ConnectivityReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/RoutingTemplateHomeDetail/RoutingHomeDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="42" column="67" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/enseval/samuelseptiano/hcservice/ExampleUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="38" column="57" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="38" selection-end-column="57" />
+          <folding>
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="177" column="68" selection-start-line="177" selection-start-column="68" selection-end-line="177" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Firebase/FirebaseIDService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="30" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#1068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Model/APIModel/User/userBodyParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+          <folding>
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Activity/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="191" column="107" selection-start-line="191" selection-start-column="64" selection-end-line="191" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Api/ApiInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="153" column="89" selection-start-line="153" selection-start-column="89" selection-end-line="153" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2588#2589#0" expanded="true" />
+            <element signature="e#2616#2617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Firebase/MyFirebaseMessagingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/enseval/samuelseptiano/hcservice/Activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="522" column="11" lean-forward="true" selection-start-line="522" selection-start-column="11" selection-end-line="522" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#25762#26083#0" />
+            <element signature="e#26088#26812#0" />
+            <element signature="e#26817#27284#0" />
+            <element signature="e#27289#28232#0" />
+            <element signature="e#28237#28929#0" />
+            <element signature="e#28934#29606#0" />
+            <element signature="e#57476#57695#0" />
+            <element signature="e#57701#73206#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
