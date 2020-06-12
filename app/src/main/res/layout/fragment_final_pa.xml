@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:paddingLeft="30dp"
+    android:weightSum="2"
+    android:paddingRight="30dp"
+    android:layout_marginBottom="65dp"
+    tools:context="com.enseval.samuelseptiano.hcservice.Fragment.KPITahunanFragment.FinalPAFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:text="Final PA" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:textSize="14dp"
+        android:text="Persetujuan Komite BOD" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imgBtnFinalPA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="30dp"
+        android:background="@color/zxing_transparent"
+        android:src="@drawable/final_pa_img" />
+    <ImageButton
+        android:id="@+id/imgBtnDistribusiNormal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="175dp"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="30dp"
+        android:background="@color/zxing_transparent"
+        android:src="@drawable/distribusi_normal_img" />
+    <ImageButton
+        android:id="@+id/imgBtnReport"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@color/zxing_transparent"
+        android:src="@drawable/report_img" />
+
+
+</LinearLayout>
+</LinearLayout>

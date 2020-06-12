@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/lnIcon"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:layout_margin="5dp"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_gravity="center"
+        android:layout_height="80dp">
+
+            <ImageButton
+                android:id="@+id/imgBtnIcon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:enabled="false"
+                android:clickable="false"
+                android:background="@color/zxing_transparent"
+                android:src="@drawable/imgalt" />
+            <TextView
+                android:id="@+id/tvIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Setup PA"
+                android:paddingBottom="5dp"
+                android:textSize="10sp"
+                android:layout_alignParentBottom="true"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+        <TextView
+            android:id="@+id/tv_notifMessage"
+            android:layout_width="25dp"
+            android:visibility="gone"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="center"
+            android:padding="3dp"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:background="@drawable/red_circle"
+            android:layout_height="25dp"
+            android:text="999" />
+    <ImageButton
+        android:id="@+id/imgComingSoon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="0dp"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="0dp"
+        android:scaleType="fitCenter"
+        android:background="@color/zxing_transparent"
+        android:src="@drawable/comingsoon" />
+    </RelativeLayout>
+</LinearLayout>
